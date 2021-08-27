@@ -1,0 +1,284 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segmentChat",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": true,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": true,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "f794847906a34b9eb3c83df3dfc56f11",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgChat1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgChat2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblMessage1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblMessage2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblName1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblName2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "b6289cea979446909a3ae4a24b07338f",
+        "rowtemplate": "flxMainChat",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": null,
+        "widgetdatamap": {
+            "flxData1": "flxData1",
+            "flxData2": "flxData2",
+            "flxLeftChat1": "flxLeftChat1",
+            "flxMainChat": "flxMainChat",
+            "flxMainContainer": "flxMainContainer",
+            "flxName1": "flxName1",
+            "flxName2": "flxName2",
+            "flxRightChat2": "flxRightChat2",
+            "imgChat1": "imgChat1",
+            "imgChat2": "imgChat2",
+            "lblDate": "lblDate",
+            "lblLine1": "lblLine1",
+            "lblLine2": "lblLine2",
+            "lblMessage1": "lblMessage1",
+            "lblMessage2": "lblMessage2",
+            "lblName1": "lblName1",
+            "lblName2": "lblName2",
+            "lblTime1": "lblTime1",
+            "lblTime2": "lblTime2"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxMainChat",
+    "pf": "userwidgetmodel",
+    "releasetopullrefreshi18n": "i18n.clorox.releaseToRefresh",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sf9b510e484445f4a3cc8702ecac7163",
+    "rowskin": "s2af2ee28d224157ad0f733cb765e827",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s32409cc5b4c4c22b3406f89955c39d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 828,
+        "widthRatio": 0
+    },
+    "tablet": {
+        "_data_": [
+            {
+                "imgChat1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "imgChat2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLine2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblMessage1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblMessage2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblName1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblName2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTime1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblTime2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "b954385dbf654e239d82240ef5334a9b",
+        "rowtemplate": "flxMainChat",
+        "widgetdatamap": {
+            "flxData1": "flxData1",
+            "flxData2": "flxData2",
+            "flxLeftChat1": "flxLeftChat1",
+            "flxMainChat": "flxMainChat",
+            "flxMainContainer": "flxMainContainer",
+            "flxName1": "flxName1",
+            "flxName2": "flxName2",
+            "flxRightChat2": "flxRightChat2",
+            "imgChat1": "imgChat1",
+            "imgChat2": "imgChat2",
+            "lblDate": "lblDate",
+            "lblLine1": "lblLine1",
+            "lblLine2": "lblLine2",
+            "lblMessage1": "lblMessage1",
+            "lblMessage2": "lblMessage2",
+            "lblName1": "lblName1",
+            "lblName2": "lblName2",
+            "lblTime1": "lblTime1",
+            "lblTime2": "lblTime2"
+        }
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxData1": "flxData1",
+        "flxData2": "flxData2",
+        "flxLeftChat1": "flxLeftChat1",
+        "flxMainChat": "flxMainChat",
+        "flxMainContainer": "flxMainContainer",
+        "flxName1": "flxName1",
+        "flxName2": "flxName2",
+        "flxRightChat2": "flxRightChat2",
+        "imgChat1": "imgChat1",
+        "imgChat2": "imgChat2",
+        "lblDate": "lblDate",
+        "lblLine1": "lblLine1",
+        "lblLine2": "lblLine2",
+        "lblMessage1": "lblMessage1",
+        "lblMessage2": "lblMessage2",
+        "lblName1": "lblName1",
+        "lblName2": "lblName2",
+        "lblTime1": "lblTime1",
+        "lblTime2": "lblTime2"
+    },
+    "zindex": 1
+}

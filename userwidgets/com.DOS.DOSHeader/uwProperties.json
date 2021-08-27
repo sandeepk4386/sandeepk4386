@@ -1,0 +1,225 @@
+{
+    "classname": "DOSHeader",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b38b0bd161744cfb9ebb3b5ac450a51d",
+                    "paramList": [
+                        {
+                            "name": "commonData"
+                        },
+                        {
+                            "name": "header"
+                        }
+                    ],
+                    "propertyKey": "setHeaderData",
+                    "pw": {
+                        "displayName": "setHeaderData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7838691adcd4507ba377957171224fa",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f96c2e506aa64499b5d9f5c0e15c9ca7",
+                    "paramList": [],
+                    "propertyKey": "getHeaderLength",
+                    "pw": {
+                        "displayName": "getHeaderLength",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7838691adcd4507ba377957171224fa",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d7f86f61ceda4e5281462aeb07654303",
+                    "paramList": [],
+                    "propertyKey": "displayDOSHeader",
+                    "pw": {
+                        "displayName": "displayDOSHeader",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7838691adcd4507ba377957171224fa",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f9866c3e5e7c4af49e4043915cd00d89",
+                    "paramList": [],
+                    "propertyKey": "getHeaderText",
+                    "pw": {
+                        "displayName": "getHeaderText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7838691adcd4507ba377957171224fa",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e3d347d88a254374b4c3eedeed968a06",
+                    "paramList": [
+                        {
+                            "name": "flag"
+                        }
+                    ],
+                    "propertyKey": "setRefreshIconVisibility",
+                    "pw": {
+                        "displayName": "setRefreshIconVisibility",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7838691adcd4507ba377957171224fa",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ef00ec31b9ae4ddeb536a620928842be",
+                    "paramList": [
+                        {
+                            "name": "header"
+                        }
+                    ],
+                    "propertyKey": "setHeaderText",
+                    "pw": {
+                        "displayName": "setHeaderText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7838691adcd4507ba377957171224fa",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cb1db710fdf3455c9dafd7803a992f20",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblHeadName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblHeadName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblHeadName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b35d29c2b5364fefba020f91fead941c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g06a6cde734341768109feddbb088db7",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "flxHeading",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxHeading",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxHeading",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a5ab74a713e349fa8a509908f48715a3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed836b5a814749db9cf7a482805ca20d",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "flxTopHead",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxTopHead",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxTopHead",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "efcd149bcaea46c8a4ea2f5d509ac022"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c991c1f0dff24d65a79fbfe0fb2a502b",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "flxLabelDef",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxLabelDef",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxLabelDef",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c32be1e603d146cd8614af087f0e940b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bc72dd600e0d4712b8ccd14417963d90",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "flxLabelDefWorkdays",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flxLabelDefWorkdays",
+                        "isHiddenInTool": false,
+                        "srcWidget": "flxLabelDefWorkdays",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a945659fa0694fe2a302eeaad9a987f8"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.DOS",
+    "version": "1.0.0"
+}

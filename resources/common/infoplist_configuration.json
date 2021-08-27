@@ -1,0 +1,32 @@
+
+{
+  "NSFaceIDUsageDescription": "Please provide access to Face ID",
+	"NSCalendarsUsageDescription": "Please provide access to Calendar",
+	"KONY_SHARED_KEYCHAIN_GROUP": "WV3KG35563.com.kony.sso",
+	"NSCameraUsageDescription": "Please provide access to Camera",
+	"NSContactsUsageDescription": "Please provide access to contacts",
+	"NSLocationWhenInUseUsageDescription": "Please provide access to Location",
+	"NSLocationAlwaysUsageDescription": "Please provide access to Location",
+	"NSMicrophoneUsageDescription": "Please provide access to Microphone",
+	"NSPhotoLibraryUsageDescription": "Please provide access to PhotoLibrary",
+	"NSSiriUsageDescription": "Please provide access to Siri",
+	"NSAppleMusicUsageDescription": "Please provide access to Music",
+  "UIUserInterfaceStyle": "Dark",
+	"useLaunchScreenStoryBoard": true,
+  "UIBackgroundModes":["remote-notification"],
+  "NSAppTransportSecurity": {
+    "NSAllowsArbitraryLoads": true,
+    "NSExceptionDomains": {
+      "kony.com": {
+        "NSIncludesSubdomains": true,
+        "NSExceptionAllowsInsecureHTTPLoads": false
+      },
+      "daily-briefings-dev.clorox.com/": {
+        "NSIncludesSubdomains": true,
+        "NSExceptionAllowsInsecureHTTPLoads": false,
+        "NSTemporaryExceptionMinimumTLSVersion":"TLSv1.2"
+      }
+    }
+  },
+  "LSApplicationQueriesSchemes": ["msteams"]
+}

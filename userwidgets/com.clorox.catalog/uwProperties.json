@@ -1,0 +1,63 @@
+{
+    "classname": "catalog",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b6db2bf18a274db8b820aca034765521",
+                    "paramList": [],
+                    "propertyKey": "addLineChart",
+                    "pw": {
+                        "displayName": "addLineChart",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i081a6f25fa04afc9242eedb29c8b7da",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "a6cbffa22d804464b494e6775ceacda7",
+                    "originalPropertyKey": "selComponent",
+                    "propertyIndex": 1,
+                    "propertyKey": "selComponent",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Selected Component",
+                        "toolTip": "Pass the selected component",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i081a6f25fa04afc9242eedb29c8b7da",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

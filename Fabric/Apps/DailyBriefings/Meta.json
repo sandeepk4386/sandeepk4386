@@ -1,0 +1,50 @@
+{
+  "subType" : "customapp",
+  "description" : "DailyBriefings",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "AppUpgrade",
+    "version" : "1.0",
+    "etag" : "8d666595-90e2-4ca5-859a-5a575a4308c5"
+  }, {
+    "name" : "clxpostgredb",
+    "version" : "1.0",
+    "etag" : "950c5285-fb1e-4b70-8ff8-75854857ed3f"
+  }, {
+    "name" : "ConnectToRedis",
+    "version" : "1.0",
+    "etag" : "641e84e0-5234-4212-b769-a71ce5c5f05f"
+  }, {
+    "name" : "dosservices",
+    "version" : "1.0",
+    "etag" : "dc6fdd6f-b025-49c5-9841-cf492d34ff1f"
+  }, {
+    "name" : "GetPushMessage",
+    "version" : "1.0",
+    "etag" : "2cad2ced-d743-4fbe-8357-5934ac2207d9"
+  }, {
+    "name" : "testredis1",
+    "version" : "1.0",
+    "etag" : "3e0bc9a7-fae1-461d-9382-a204feebe490"
+  }, {
+    "name" : "testredis2",
+    "version" : "1.0",
+    "etag" : "73092237-508d-4c96-8797-a2a1dd962c42"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "FetchNotifications",
+    "version" : "1.0",
+    "etag" : "3c7de79e-c6bd-47da-bc0d-b2fed9fd187b"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "DOSData",
+    "version" : "1.0",
+    "etag" : "bbd71588-3243-47bf-8e31-dbc60254b1e6"
+  }, {
+    "name" : "Feedback",
+    "version" : "1.0",
+    "etag" : "beb40c97-9c84-4759-8983-90ad381eadca"
+  } ],
+  "identity" : [ "okatpreview", "okatpreviewoauth", "oktadev" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":1440,\"session_max_duration_mins\":2880,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true,\"integrity_key_type\":\"\",\"integrity_key\":\"\"}"
+}

@@ -1,0 +1,83 @@
+{
+    "classname": "AppGuide",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "cc81227225914df2a04f754c583be887",
+                    "paramList": [],
+                    "propertyKey": "setSegDataImages",
+                    "pw": {
+                        "displayName": "setSegDataImages",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e75a1f8e9aef493297f75d71b35db5ee",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "df87e66b75b145bc893d064c3fbc0be2",
+                    "paramList": [],
+                    "propertyKey": "onClickOfCross",
+                    "pw": {
+                        "displayName": "onClickOfCross",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e75a1f8e9aef493297f75d71b35db5ee",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "gcfb66319fce4b0fa57edd94ad4f4c67",
+                    "paramList": [],
+                    "propertyKey": "visibleGuide",
+                    "pw": {
+                        "displayName": "visibleGuide",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e75a1f8e9aef493297f75d71b35db5ee",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Normal",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c4ac27bd03c947eaba53b57ef6b32f91"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "Clorox",
+    "version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "okatpreviewoauth",
+  "type" : "oauth2",
+  "version" : "1.0",
+  "metaPreference" : -1,
+  "config" : "{\"auth_type\":\"oauth2\",\"session_restrictions\":{\"session_restriction_type\":\"allow_any_number_of_sessions\"},\"profile\":{\"profile_attribute_selectors\":{\"federation_id\":\"\",\"last_name\":\"\",\"custom_profile_attribute_selectors\":{},\"first_name\":\"\",\"email\":\"\"},\"endpoint\":{\"location\":\"\",\"type\":\"none\",\"value\":\"\"},\"request_method\":\"GET\"},\"dependent_providers\":[],\"client_authentication\":{\"authentication_scheme\":\"header\",\"client_secret\":\"jonKcnmuSr-Y7r3GYGPuu1IoywjjO1haLdqCBklG\",\"client_id\":\"0oayiehrniAmh14ve0h7\"},\"authorization_endpoint\":\"https://clorox.oktapreview.com/oauth2/v1/authorize\",\"enable_refresh_login\":true,\"logout_url\":\"https://clorox.oktapreview.com/login/signout\",\"additional_data\":{\"refresh_request\":[],\"token_request\":[],\"revoke_request\":[],\"profile_request\":[],\"authorize_request\":[{\"in\":\"query\",\"source\":\"client_specified\",\"value\":\"client_specified\",\"key\":\"code\"}]},\"grant_type\":\"authorization_code\",\"scope\":\"openid profile email offline_access\",\"authentication_scheme\":\"header\",\"oauthProviderType\":\"default\",\"token_endpoint\":\"https://clorox.oktapreview.com/oauth2/v1/token\"}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "no_approval_needed",
+  "identityMeta" : {
+    "allow_sso" : true,
+    "oauth2_success_url_config" : {
+      "allow_any" : true,
+      "allowed_urls" : [ ],
+      "default" : -1
+    }
+  },
+  "isIntegrityEnabled" : true,
+  "ssoenabled" : true
+}

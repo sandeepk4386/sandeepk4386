@@ -1,0 +1,18 @@
+{
+  "appleprodmode" : "true",
+  "iphonecertprod" : {
+    "name" : "DailyBriefings.p12",
+    "passwd" : "e-EpZkKCmC4MGk9w"
+  },
+  "ipadcertprod" : {
+    "name" : "DailyBriefings_iPad.p12",
+    "passwd" : "e-EpZkKCmC4MGk9w"
+  },
+  "android" : {
+    "key" : "AAAAyMgXEl4:APA91bF8ZrjeDdKiDEBFt7u-CZYubGGdnZGcmG7OVqIXeTmtgi9j16VdCLStuT_bvANaVtVY9N0PilZ3t35JElohEJ195BRcwiP76s9BGTq4t6l-5KbxurjlNx6ad7YKgz_o4KPVn-on"
+  },
+  "ipadDevCertNameModified" : false,
+  "ipadProdCertNameModified" : true,
+  "iphoneDevCertNameModified" : false,
+  "iphoneProdCertNameModified" : true
+}

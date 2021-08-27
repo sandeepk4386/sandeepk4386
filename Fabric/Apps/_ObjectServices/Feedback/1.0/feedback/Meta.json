@@ -1,0 +1,78 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "feedback",
+      "qualifiedName" : "edb.feedback",
+      "metadataformatterobject" : "{\"displayName\":\"feedback\",\"qualifiedName\":\"edb.feedback\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"feedback\",\"schemaName\":\"edb\",\"tableName\":\"feedback\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "feedback",
+      "qualifiedName" : "edb.feedback",
+      "metadataformatterobject" : "{\"displayName\":\"feedback\",\"qualifiedName\":\"edb.feedback\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"feedback\",\"schemaName\":\"edb\",\"tableName\":\"feedback\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "device_id",
+    "targetField" : "device_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "app_version",
+    "targetField" : "app_version",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "device_model",
+    "targetField" : "device_model",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "subject",
+    "targetField" : "subject",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "os_version",
+    "targetField" : "os_version",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "feedback_date",
+    "targetField" : "feedback_date",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "env",
+    "targetField" : "env",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "feedback_user",
+    "targetField" : "feedback_user",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "platform",
+    "targetField" : "platform",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "application_name",
+    "targetField" : "application_name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "id",
+    "targetField" : "id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "feedback_comment",
+    "targetField" : "feedback_comment",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "device_channel",
+    "targetField" : "device_channel",
+    "type" : "request_response"
+  } ]
+}

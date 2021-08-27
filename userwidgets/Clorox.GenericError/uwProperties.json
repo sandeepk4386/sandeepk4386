@@ -1,0 +1,224 @@
+{
+    "classname": "GenericError",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c1dfe3123e8441b0aa461eba69b584c5",
+                    "paramList": [
+                        {
+                            "name": "isMandatory"
+                        }
+                    ],
+                    "propertyKey": "appUpgrade",
+                    "pw": {
+                        "displayName": "appUpgrade",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ia7f7ed7db5548dfbd374d4145b29b58",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c34911ebb2a849d488f886f54cc0ff24",
+                    "paramList": [
+                        {
+                            "name": "title"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "yes"
+                        },
+                        {
+                            "name": "yesHandler"
+                        },
+                        {
+                            "name": "no"
+                        },
+                        {
+                            "name": "noHandler"
+                        }
+                    ],
+                    "propertyKey": "displayText",
+                    "pw": {
+                        "displayName": "displayText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ia7f7ed7db5548dfbd374d4145b29b58",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a507778257414c62938391828be3d660",
+                    "originalPropertyKey": "right",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnNoRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Right",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "btnNo",
+                        "toolTip": "Distance of right edge of widget from right edge of parent container. Overridden by left property.",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "jbfce4aa8926438cba6ff233e00158f1"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i56657a0a5aa4284b2aee0652bfd05e8",
+                    "originalPropertyKey": "right",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnyesRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Right",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "isHiddenInTool": false,
+                        "srcWidget": "btnyes",
+                        "toolTip": "Distance of right edge of widget from right edge of parent container. Overridden by left property.",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c238d24c76224c8bb48a779f559f3639"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "Clorox",
+    "version": "1.0.0"
+}

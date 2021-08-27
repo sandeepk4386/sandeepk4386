@@ -1,0 +1,97 @@
+{
+    "classname": "DOSBusinessCustomersTablet",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bab1ed49c3484c72bc9e0e60c37c3afe",
+                    "paramList": [
+                        {
+                            "name": "business"
+                        },
+                        {
+                            "name": "k"
+                        },
+                        {
+                            "name": "commonData"
+                        }
+                    ],
+                    "propertyKey": "setBusinessData",
+                    "pw": {
+                        "displayName": "setBusinessData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd59047e771140e9b63bbdcaba4e89e1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c53434fe45e24e4a89f22304cb8b0929",
+                    "paramList": [
+                        {
+                            "name": "customers"
+                        },
+                        {
+                            "name": "commonData"
+                        }
+                    ],
+                    "propertyKey": "setCustomersData",
+                    "pw": {
+                        "displayName": "setCustomersData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd59047e771140e9b63bbdcaba4e89e1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d70526f00fca4757a4e88ac8fca65544",
+                    "paramList": [],
+                    "propertyKey": "setCustomersDataOff",
+                    "pw": {
+                        "displayName": "setCustomersDataOff",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd59047e771140e9b63bbdcaba4e89e1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d201cb97e3464139b035a28af93c4a01",
+                    "paramList": [],
+                    "propertyKey": "setBusinessDataOff",
+                    "pw": {
+                        "displayName": "setBusinessDataOff",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "dd59047e771140e9b63bbdcaba4e89e1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="get_mtd_orders" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.hcl.coupons.preprocessor.TestRedisPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://daily-briefings-dev.clorox.com:443/services/testredis1/connect?query=$query"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false"/>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="query" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <stub-param value="{&#10; &quot;Common&quot;: [{&#10;  &quot;date&quot;: &quot;May 12, 2021&quot;,&#10;  &quot;time_elapsed&quot;: &quot;40%&quot;,&#10;  &quot;remaining_workdays&quot;: &quot;12&quot;,&#10;  &quot;num_work_days&quot;: &quot;20&quot;,&#10;  &quot;ya_num_work_days&quot;: &quot;17&quot;,&#10;  &quot;product_metric&quot;: &quot;MTD Orders&quot;,&#10;  &quot;customer_metric&quot;: &quot;MTD Orders&quot;&#10; }],&#10; &quot;Metrics&quot;: [{&#10;   &quot;name&quot;: &quot;MTD Orders&quot;,&#10;   &quot;value&quot;: &quot;3,871&quot;,&#10;   &quot;color_group&quot;: &quot;orders&quot;,&#10;   &quot;group_name&quot;: &quot;MTD Orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;MTD Orders YA&quot;,&#10;   &quot;value&quot;: &quot;3,133&quot;,&#10;   &quot;color_group&quot;: &quot;orders&quot;,&#10;   &quot;group_name&quot;: &quot;MTD Orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;YA Change&quot;,&#10;   &quot;value&quot;: &quot;738&quot;,&#10;   &quot;color_group&quot;: &quot;orders&quot;,&#10;   &quot;group_name&quot;: &quot;MTD Orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;MTD Orders vs YA Index&quot;,&#10;   &quot;value&quot;: &quot;102&quot;,&#10;   &quot;color_group&quot;: &quot;orders&quot;,&#10;   &quot;group_name&quot;: &quot;MTD Orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;NDF&quot;,&#10;   &quot;value&quot;: &quot;10,000&quot;,&#10;   &quot;color_group&quot;: &quot;orders&quot;,&#10;   &quot;group_name&quot;: &quot;MTD Orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Full Month YA&quot;,&#10;   &quot;value&quot;: &quot;7,195&quot;,&#10;   &quot;color_group&quot;: &quot;orders&quot;,&#10;   &quot;group_name&quot;: &quot;MTD Orders&quot;&#10;  }&#10; ],&#10;&#10; &quot;Products&quot;: [{&#10;   &quot;name&quot;: &quot;Brita&quot;,&#10;   &quot;metric_value&quot;: 92.59,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Brita|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Burt's Bees&quot;,&#10;   &quot;metric_value&quot;: 203.54,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Burt's Bees|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Cat Litter&quot;,&#10;   &quot;metric_value&quot;: 164.34,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Cat Litter|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Charcoal&quot;,&#10;   &quot;metric_value&quot;: 81.04,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Charcoal|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Food&quot;,&#10;   &quot;metric_value&quot;: 99.34,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Food|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Glad&quot;,&#10;   &quot;metric_value&quot;: 80.18,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Glad|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Home Care&quot;,&#10;   &quot;metric_value&quot;: 104.66,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Home Care|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Laundry&quot;,&#10;   &quot;metric_value&quot;: 54.08,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Laundry|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;PPD&quot;,&#10;   &quot;metric_value&quot;: 51.17,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;PPD|All Customers|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  }&#10; ],&#10; &quot;Customers&quot;: [{&#10;   &quot;name&quot;: &quot;All Others&quot;,&#10;   &quot;metric_value&quot;: &quot;93.33&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|All Others|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Amazon&quot;,&#10;   &quot;metric_value&quot;: &quot;35.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Amazon|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;BJs&quot;,&#10;   &quot;metric_value&quot;: &quot;76.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|BJs|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Costco&quot;,&#10;   &quot;metric_value&quot;: &quot;204.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Costco|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Dollar Gen&quot;,&#10;   &quot;metric_value&quot;: &quot;138.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Dollar Gen|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Dollar Tree&quot;,&#10;   &quot;metric_value&quot;: &quot;88.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Dollar Tree|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Home Depot&quot;,&#10;   &quot;metric_value&quot;: &quot;98.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Home Depot|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Kroger&quot;,&#10;   &quot;metric_value&quot;: &quot;90.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Kroger|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Sams&quot;,&#10;   &quot;metric_value&quot;: &quot;80.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Sams|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Target&quot;,&#10;   &quot;metric_value&quot;: &quot;156.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Target|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  },&#10;  {&#10;   &quot;name&quot;: &quot;Walmart&quot;,&#10;   &quot;metric_value&quot;: &quot;80.0&quot;,&#10;   &quot;metric_label&quot;: &quot;mtd_orders&quot;,&#10;   &quot;id&quot;: &quot;Total Clorox|Walmart|product_metric:mtd_orders|customer_metric:mtd_orders&quot;&#10;  }&#10; ]&#10;&#10;}"/>
+    </service-input>
+    <service-output passthrough="false">
+        <dataset defaultvalue="" id="Common" order="" paramOrder="1" parentOrder="0" src="$.Common[*]" testvalue="">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="date" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="date" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="time_elapsed" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="time_elapsed" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="remaining_workdays" order="" paramOrder="4" parentOrder="1" passnull="false" sms-name="" src="remaining_workdays" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="num_work_days" order="" paramOrder="5" parentOrder="1" passnull="false" sms-name="" src="num_work_days" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ya_num_work_days" order="" paramOrder="6" parentOrder="1" passnull="false" sms-name="" src="ya_num_work_days" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="product_metric" order="" paramOrder="7" parentOrder="1" passnull="false" sms-name="" src="product_metric" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customer_metric" order="" paramOrder="8" parentOrder="1" passnull="false" sms-name="" src="customer_metric" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <dataset defaultvalue="" id="Metrics" order="" paramOrder="9" parentOrder="0" src="$.Metrics[*]" testvalue="">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="name" order="" paramOrder="10" parentOrder="9" passnull="false" sms-name="" src="name" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="value" order="" paramOrder="11" parentOrder="9" passnull="false" sms-name="" src="value" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="color_group" order="" paramOrder="12" parentOrder="9" passnull="false" sms-name="" src="color_group" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="group_name" order="" paramOrder="13" parentOrder="9" passnull="false" sms-name="" src="group_name" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <dataset defaultvalue="" id="Products" order="" paramOrder="14" parentOrder="0" src="$.Products[*]" testvalue="">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="name" order="" paramOrder="15" parentOrder="14" passnull="false" sms-name="" src="name" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="metric_value" order="" paramOrder="16" parentOrder="14" passnull="false" sms-name="" src="metric_value" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="metric_label" order="" paramOrder="17" parentOrder="14" passnull="false" sms-name="" src="metric_label" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="id" order="" paramOrder="18" parentOrder="14" passnull="false" sms-name="" src="id" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <dataset defaultvalue="" id="Customers" order="" paramOrder="19" parentOrder="0" src="$.Customers[*]" testvalue="">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="name" order="" paramOrder="20" parentOrder="19" passnull="false" sms-name="" src="name" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="metric_value" order="" paramOrder="21" parentOrder="19" passnull="false" sms-name="" src="metric_value" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="metric_label" order="" paramOrder="22" parentOrder="19" passnull="false" sms-name="" src="metric_label" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="id" order="" paramOrder="23" parentOrder="19" passnull="false" sms-name="" src="id" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

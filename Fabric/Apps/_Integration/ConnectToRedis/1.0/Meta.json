@@ -1,0 +1,16 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "commons-pool2-2.9.0.jar",
+    "type" : "jar"
+  }, {
+    "name" : "LatencyUtils-2.0.3.jar",
+    "type" : "jar"
+  }, {
+    "name" : "cloredtest.jar",
+    "type" : "jar"
+  }, {
+    "name" : "lettuce-core-6.1.0.RELEASE.jar",
+    "type" : "jar"
+  } ]
+}

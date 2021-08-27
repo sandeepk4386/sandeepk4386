@@ -1,0 +1,56 @@
+{
+    "classname": "SharePopup",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bce7435919f647b982b468258b7718dc",
+                    "paramList": [],
+                    "propertyKey": "setImageData",
+                    "pw": {
+                        "displayName": "setImageData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i9fd2a87611a47108c92efe7c9239625",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c25ba88b98cb4f818ee30772522f081a",
+                    "paramList": [],
+                    "propertyKey": "closePopUp",
+                    "pw": {
+                        "displayName": "closePopUp",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i9fd2a87611a47108c92efe7c9239625",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "Clorox",
+    "version": "1.0.0"
+}

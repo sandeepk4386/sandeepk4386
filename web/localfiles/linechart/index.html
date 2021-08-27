@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1">
+    <title>Line Chart</title>
+    <style type="text/css">
+      body {
+        height: 90%;
+        margin: 0;
+        background-color: #1C2359;
+        overflow: hidden;
+      }
+      .highcharts-figure, .highcharts-data-table table {
+        min-width: 100%; 
+        max-width: 100%;
+        max-height:100%;
+        min-height:100%;
+        margin: 1em auto;
+      }
+
+      .highcharts-data-table table {
+        font-family: Roboto;      
+        border-collapse: collapse;
+        border: 1px solid #EBEBEB;
+        margin: 10px auto;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+      }
+      .highcharts-data-table caption {
+        padding: 1em 0;
+        font-size: 1.2em;
+        color: #555;
+      }
+      .highcharts-data-table th {
+        font-weight: 600;
+        padding: 0.5em;
+      }
+      .highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+        padding: 0.5em;
+      }
+      .highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+        /*background: #1c214e;*/
+      }
+      .highcharts-data-table tr:hover {
+        /*  background: #1c214e;*/
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Script to create style tag -->      
+    <script type="text/javascript"> 
+      /* Function to add style */ 
+      function addStyle(styles) { 
+        /* Create style element */ 
+        var css = document.createElement('style'); 
+        css.type = 'text/css'; 
+        if (css.styleSheet)  
+          css.styleSheet.cssText = styles; 
+        else  
+          css.appendChild(document.createTextNode(styles)); 
+        /* Append style to the head element */ 
+        document.getElementsByTagName("head")[0].appendChild(css); 
+      } 
+    </script>    
+    <script src="lineChart.js"></script>  
+    <script src="highcharts.js"></script>
+    <figure class="highcharts-figure">
+      <div id="lineChartContainer"></div>
+    </figure>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+{
+    "classname": "Definitions",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "hc2e498cb4a948b593465a307bc3e56f",
+                    "paramList": [],
+                    "propertyKey": "setSegData",
+                    "pw": {
+                        "displayName": "setSegData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fa5c1a7fee684d32869eabc85df78d11",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "Clorox",
+    "version": "1.0.0"
+}

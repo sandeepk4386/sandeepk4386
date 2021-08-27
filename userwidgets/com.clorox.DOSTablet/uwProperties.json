@@ -1,0 +1,84 @@
+{
+    "classname": "DOSTablet",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a07bf0ef59ee43fe9f5a5ccaf12d6a92",
+                    "paramList": [],
+                    "propertyKey": "backNav",
+                    "pw": {
+                        "displayName": "backNav",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g2779a0a83cb4a499fe0d2b83867c4ad",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g4846673f80d4825ae03fbdc8b61776c",
+                    "paramList": [
+                        {
+                            "name": "doadosData"
+                        }
+                    ],
+                    "propertyKey": "setFormData",
+                    "pw": {
+                        "displayName": "setFormData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g2779a0a83cb4a499fe0d2b83867c4ad",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c1fcb7550e05416bbfe719b3287d3fc4",
+                    "paramList": [],
+                    "propertyKey": "setSegmentsData",
+                    "pw": {
+                        "displayName": "setSegmentsData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g2779a0a83cb4a499fe0d2b83867c4ad",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e3e7a2c2b3cc4758b0d2689d3a2005c2",
+                    "paramList": [],
+                    "propertyKey": "reset",
+                    "pw": {
+                        "displayName": "reset",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g2779a0a83cb4a499fe0d2b83867c4ad",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

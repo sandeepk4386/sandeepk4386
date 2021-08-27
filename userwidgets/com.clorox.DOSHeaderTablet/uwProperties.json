@@ -1,0 +1,70 @@
+{
+    "classname": "DOSHeaderTablet",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b6e6f5309561472eabdb8671227c4f4a",
+                    "paramList": [
+                        {
+                            "name": "commonData"
+                        }
+                    ],
+                    "propertyKey": "setHeaderData",
+                    "pw": {
+                        "displayName": "setHeaderData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hdb6e1c826a0450db4c84186095f56d8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fd72bd14d83242b293e6815b7d9dcd2f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblHeadName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblHeadName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblHeadName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gf0c728c891f430cbb195f6c4882af82"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

@@ -1,0 +1,60 @@
+{
+    "classname": "Notifications",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d0fc5c206e68456ea16a7c1f258a4f63",
+                    "paramList": [
+                        {
+                            "name": "segData"
+                        }
+                    ],
+                    "propertyKey": "setSegmentData",
+                    "pw": {
+                        "displayName": "setSegmentData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f61cb0781b934c6fa95c9c1084f84baf",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i5996113c09d4492b8c9a72cca052b0c",
+                    "paramList": [],
+                    "propertyKey": "setNotifyEmpty",
+                    "pw": {
+                        "displayName": "setNotifyEmpty",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f61cb0781b934c6fa95c9c1084f84baf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

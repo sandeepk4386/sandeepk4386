@@ -1,0 +1,245 @@
+{
+    "classname": "Login",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bba0e855405845a7b138f24edda12a7a",
+                    "paramList": [],
+                    "propertyKey": "bioMetricOptions",
+                    "pw": {
+                        "displayName": "bioMetricOptions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e1a90e30331f4c1a82d95a09af529cce",
+                    "paramList": [],
+                    "propertyKey": "onClickLogin",
+                    "pw": {
+                        "displayName": "onClickLogin",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a80b921d387541fc8792d515dac92c2a",
+                    "paramList": [],
+                    "propertyKey": "checkBiometricSupport",
+                    "pw": {
+                        "displayName": "checkBiometricSupport",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ba5289c6a4954c9b85fcebd984c496d5",
+                    "paramList": [],
+                    "propertyKey": "getBiometricInfo",
+                    "pw": {
+                        "displayName": "getBiometricInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a15df2b740fc470f8f9e636871a50d90",
+                    "paramList": [],
+                    "propertyKey": "invokeLogin",
+                    "pw": {
+                        "displayName": "invokeLogin",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d16b6097e45140ba98df6da4505234d3",
+                    "paramList": [],
+                    "propertyKey": "retryLogin",
+                    "pw": {
+                        "displayName": "retryLogin",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c6cd163c5162449db063b646af02a0d3",
+                    "paramList": [],
+                    "propertyKey": "touchIDCanceledByUser",
+                    "pw": {
+                        "displayName": "touchIDCanceledByUser",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e1e06ae04b7f4370a1d0320894c27856",
+                    "paramList": [],
+                    "propertyKey": "androidLocalAuthenticationFallback",
+                    "pw": {
+                        "displayName": "androidLocalAuthenticationFallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c1bbe8240db2419392ca03eb775ec44b",
+                    "paramList": [],
+                    "propertyKey": "invokeIdentityService",
+                    "pw": {
+                        "displayName": "invokeIdentityService",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ddfb962a86174fc0a48d4b2392696cf2",
+                    "paramList": [],
+                    "propertyKey": "displayErrorMessage",
+                    "pw": {
+                        "displayName": "displayErrorMessage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Identity Details",
+                "Login UI",
+                "App Config"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "OFF",
+                    "group": "Login UI",
+                    "kuid": "b0468d6710da46439053ad0d7ab71171",
+                    "originalPropertyKey": "localAuthRequired",
+                    "propertyIndex": 1,
+                    "propertyKey": "localAuthRequired",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Biometric Authentication",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "list selector",
+                    "value": [
+                        "OFF",
+                        "USER PREFERENCE"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "App Config",
+                    "kuid": "ha53c864e0664ab193bc1ab4e1608aef",
+                    "originalPropertyKey": "deepLinkURL",
+                    "propertyIndex": 1,
+                    "propertyKey": "deepLinkURL",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Deeplink Schema",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Identity Details",
+                    "kuid": "h8be7d0cd60a4409932425c75f8ad3c2",
+                    "originalPropertyKey": "identityServiceID",
+                    "propertyIndex": 1,
+                    "propertyKey": "identityServiceID",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Identity Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Login UI",
+                    "kuid": "a21352ebd8544d73a0528db410acb345",
+                    "originalPropertyKey": "cloroxIDLoginUI",
+                    "propertyIndex": 2,
+                    "propertyKey": "cloroxIDLoginUI",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "CloroxID Login UI",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Identity Details",
+                    "kuid": "d8abedc1d31c4fb29453b77941222a5b",
+                    "originalPropertyKey": "baseURL",
+                    "propertyIndex": 2,
+                    "propertyKey": "baseURL",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Clorox Base URL",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b1cd5c19323e4dc38b64a4a9ca26e321",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

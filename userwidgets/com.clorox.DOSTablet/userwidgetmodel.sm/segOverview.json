@@ -1,0 +1,313 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segOverview",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ba961e62aee84f52b95bdb820700935f",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "lbIndexValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lblIndexCount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                }
+            },
+            {
+                "lbIndexValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lblIndexCount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                }
+            },
+            {
+                "lbIndexValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lblIndexCount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                }
+            },
+            {
+                "lbIndexValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lblIndexCount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                }
+            }
+        ],
+        "rowTemplateId": "c258ad933bfc411480df4bbdca439bb8",
+        "rowtemplate": "flxDOSOverview",
+        "widgetdatamap": {
+            "flxChangeNIndex": "flxChangeNIndex",
+            "flxChangeValues": "flxChangeValues",
+            "flxDOSOverview": "flxDOSOverview",
+            "flxGroupMain": "flxGroupMain",
+            "flxGroupValue": "flxGroupValue",
+            "flxIndexValues": "flxIndexValues",
+            "lbIndexValue": "lbIndexValue",
+            "lblChangeCount": "lblChangeCount",
+            "lblChangeValue": "lblChangeValue",
+            "lblGroupName": "lblGroupName",
+            "lblGroupValue": "lblGroupValue",
+            "lblIndexCount": "lblIndexCount"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxOverview",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 1,
+    "rowfocusskin": "sf9b510e484445f4a3cc8702ecac7163",
+    "rowskin": "sdee14e29b774d5e93d98cf395404aa3",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s32409cc5b4c4c22b3406f89955c39d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "tablet": {
+        "_data_": [
+            {
+                "lbIndexValue1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lbIndexValue2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lblChangeCount1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblChangeCount2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblChangeValue1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblChangeValue2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupName1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupName2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupValue1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupValue2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblIndexCount1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                },
+                "lblIndexCount2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                }
+            },
+            {
+                "lbIndexValue1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lbIndexValue2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "asfs"
+                },
+                "lblChangeCount1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblChangeCount2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblChangeValue1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblChangeValue2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupName1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupName2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupValue1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblGroupValue2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblIndexCount1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                },
+                "lblIndexCount2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "gs"
+                }
+            }
+        ],
+        "rowTemplateId": "f95a62c194694ff38c12ee3904ce4bdc",
+        "rowtemplate": "flxDOSOverview",
+        "widgetdatamap": {
+            "flxChangeNIndex1": "flxChangeNIndex1",
+            "flxChangeNIndex2": "flxChangeNIndex2",
+            "flxChangeValues": "flxChangeValues",
+            "flxChangeValues2": "flxChangeValues2",
+            "flxDOSOverview": "flxDOSOverview",
+            "flxGroupMain1": "flxGroupMain1",
+            "flxGroupMain2": "flxGroupMain2",
+            "flxGroupValue1": "flxGroupValue1",
+            "flxGroupValue2": "flxGroupValue2",
+            "flxIndexValues": "flxIndexValues",
+            "flxIndexValues2": "flxIndexValues2",
+            "lbIndexValue1": "lbIndexValue1",
+            "lbIndexValue2": "lbIndexValue2",
+            "lblChangeCount1": "lblChangeCount1",
+            "lblChangeCount2": "lblChangeCount2",
+            "lblChangeValue1": "lblChangeValue1",
+            "lblChangeValue2": "lblChangeValue2",
+            "lblGroupName1": "lblGroupName1",
+            "lblGroupName2": "lblGroupName2",
+            "lblGroupValue1": "lblGroupValue1",
+            "lblGroupValue2": "lblGroupValue2",
+            "lblIndexCount1": "lblIndexCount1",
+            "lblIndexCount2": "lblIndexCount2"
+        }
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxChangeNIndex": "flxChangeNIndex",
+        "flxChangeValues": "flxChangeValues",
+        "flxDOSOverview": "flxDOSOverview",
+        "flxGroupMain": "flxGroupMain",
+        "flxGroupValue": "flxGroupValue",
+        "flxIndexValues": "flxIndexValues",
+        "lbIndexValue": "lbIndexValue",
+        "lblChangeCount": "lblChangeCount",
+        "lblChangeValue": "lblChangeValue",
+        "lblGroupName": "lblGroupName",
+        "lblGroupValue": "lblGroupValue",
+        "lblIndexCount": "lblIndexCount"
+    }
+}

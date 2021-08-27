@@ -1,0 +1,17 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "1",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "jdbcClass" : "org.postgresql.Driver",
+    "jdbcUrl" : "jdbc:postgresql://clxdev-postgre-server.postgres.database.azure.com:5432/clxwebapp?sslmode=require",
+    "userId" : "konyappuser@clxdev-postgre-server",
+    "password" : "Clorox123#",
+    "advancedSettings" : null,
+    "maxPoolSize" : null,
+    "connectionTimeout" : null
+  },
+  "jsonpath" : false
+}

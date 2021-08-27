@@ -1,0 +1,868 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__unreferencedGenTemplates": {
+        "c3636c7fdc534afb80c219c22818f7b5": {
+            "channel": "mobile",
+            "controllerContent": null,
+            "spaModel": {
+                "DNDConfig": null,
+                "_height_": {
+                    "type": "string",
+                    "value": "80dp"
+                },
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_skin_": "sfb7c20e2a8042088bbc285ec15f8d1a",
+                "_width_": {
+                    "type": "string",
+                    "value": "100%"
+                },
+                "allboxes": [],
+                "canUpdateUI": true,
+                "children": [
+                    "flxMainBio"
+                ],
+                "clipbounds": false,
+                "containerId": true,
+                "containerweight": 100,
+                "controllerInfo": {
+                    "default": {
+                        "channel": "mobile",
+                        "name": "FBox0e224ffdd37d147Controller"
+                    }
+                },
+                "enablescrolling": true,
+                "flxBiomerticMain2": {
+                    "DNDConfig": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "30dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_right_": {
+                        "type": "string",
+                        "value": "36dp"
+                    },
+                    "_skin_": "sd3bf69cd0ac4d9b8f404d68a27b0993",
+                    "_top_": {
+                        "type": "string",
+                        "value": "2dp"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "42dp"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "centery": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "children": [
+                        "flxBiometricswtch2",
+                        "flxRoundToggle2"
+                    ],
+                    "clipbounds": true,
+                    "containerId": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flxBiometricswtch2": {
+                        "DNDConfig": null,
+                        "_height_": {
+                            "type": "string",
+                            "value": "12dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "7dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "s37b0375dd77460d89857b8cce2aea9b",
+                        "_width_": {
+                            "type": "string",
+                            "value": "32dp"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "centery": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "children": [],
+                        "clipbounds": true,
+                        "containerId": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxBiometricswtch2",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "g32b710c13614cc58242bdf8721c02dc",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxBiomerticMain2",
+                        "pf": "FBox0e224ffdd37d147",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snapshot": {
+                            "md5": "Fd3FPFxWJ0keOalkBReHXdm2CmQ="
+                        },
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "flxRoundToggle2": {
+                        "DNDConfig": null,
+                        "_height_": {
+                            "type": "string",
+                            "value": "20dp"
+                        },
+                        "_left_": {
+                            "type": "string",
+                            "value": "7dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_skin_": "s162a5eee8a64c5580f4ddc0e81ad8ca",
+                        "_top_": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "20dp"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "centery": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "children": [],
+                        "clipbounds": true,
+                        "containerId": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "id": "flxRoundToggle2",
+                        "info": null,
+                        "iphone": {
+                            "left": {
+                                "type": "string",
+                                "value": "7dp"
+                            },
+                            "top": {
+                                "type": "string",
+                                "value": ""
+                            }
+                        },
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "a880d0fc101249b49141a51a3874f9f3",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxBiomerticMain2",
+                        "pf": "FBox0e224ffdd37d147",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snapshot": {
+                            "md5": "mN1wOYyJNcjU/D+LNht0riCUxuQ="
+                        },
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "id": "flxBiomerticMain2",
+                    "info": null,
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "a779a9e4d9e2449885515457a6cbdb6e",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "flxMainBio",
+                    "pf": "FBox0e224ffdd37d147",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snapshot": {
+                        "md5": "MRiBNkZMM77FVqnoAJqoXSXcl/E="
+                    },
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "flxBiometricswtch2": {
+                    "DNDConfig": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "12dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "7dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s37b0375dd77460d89857b8cce2aea9b",
+                    "_width_": {
+                        "type": "string",
+                        "value": "32dp"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "centery": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "children": [],
+                    "clipbounds": true,
+                    "containerId": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "id": "flxBiometricswtch2",
+                    "info": null,
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "g32b710c13614cc58242bdf8721c02dc",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "flxBiomerticMain2",
+                    "pf": "FBox0e224ffdd37d147",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snapshot": {
+                        "md5": "Fd3FPFxWJ0keOalkBReHXdm2CmQ="
+                    },
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "flxMainBio": {
+                    "DNDConfig": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "50dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "sfb7c20e2a8042088bbc285ec15f8d1a",
+                    "_top_": {
+                        "type": "string",
+                        "value": "0dp"
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "100%"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "flxBiomerticMain2"
+                    ],
+                    "clipbounds": true,
+                    "containerId": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "flxBiomerticMain2": {
+                        "DNDConfig": null,
+                        "_height_": {
+                            "type": "string",
+                            "value": "30dp"
+                        },
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_orientation_": 6,
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_percent_": true,
+                        "_right_": {
+                            "type": "string",
+                            "value": "36dp"
+                        },
+                        "_skin_": "sd3bf69cd0ac4d9b8f404d68a27b0993",
+                        "_top_": {
+                            "type": "string",
+                            "value": "2dp"
+                        },
+                        "_width_": {
+                            "type": "string",
+                            "value": "42dp"
+                        },
+                        "allboxes": [],
+                        "autogrowmode": 0,
+                        "canUpdateUI": true,
+                        "centery": {
+                            "type": "string",
+                            "value": "50%"
+                        },
+                        "children": [
+                            "flxBiometricswtch2",
+                            "flxRoundToggle2"
+                        ],
+                        "clipbounds": true,
+                        "containerId": true,
+                        "containerweight": 100,
+                        "enablescrolling": true,
+                        "flxBiometricswtch2": {
+                            "DNDConfig": null,
+                            "_height_": {
+                                "type": "string",
+                                "value": "12dp"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "7dp"
+                            },
+                            "_margin_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_orientation_": 6,
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_percent_": true,
+                            "_skin_": "s37b0375dd77460d89857b8cce2aea9b",
+                            "_width_": {
+                                "type": "string",
+                                "value": "32dp"
+                            },
+                            "allboxes": [],
+                            "autogrowmode": 0,
+                            "canUpdateUI": true,
+                            "centery": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "children": [],
+                            "clipbounds": true,
+                            "containerId": true,
+                            "containerweight": 100,
+                            "enablescrolling": true,
+                            "id": "flxBiometricswtch2",
+                            "info": null,
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "g32b710c13614cc58242bdf8721c02dc",
+                            "layouttype": 2,
+                            "name": "kony.ui.FlexContainer",
+                            "parent": "flxBiomerticMain2",
+                            "pf": "FBox0e224ffdd37d147",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "retainflowhorizontalalignment": false,
+                            "snapgridsize": 10,
+                            "snapshot": {
+                                "md5": "Fd3FPFxWJ0keOalkBReHXdm2CmQ="
+                            },
+                            "snaptogrid": true,
+                            "wType": "FlexContainer",
+                            "widgetalignment": 1,
+                            "zindex": 1
+                        },
+                        "flxRoundToggle2": {
+                            "DNDConfig": null,
+                            "_height_": {
+                                "type": "string",
+                                "value": "20dp"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "7dp"
+                            },
+                            "_margin_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_orientation_": 6,
+                            "_padding_": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "_percent_": true,
+                            "_skin_": "s162a5eee8a64c5580f4ddc0e81ad8ca",
+                            "_top_": {
+                                "type": "string",
+                                "value": ""
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "20dp"
+                            },
+                            "allboxes": [],
+                            "autogrowmode": 0,
+                            "canUpdateUI": true,
+                            "centery": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "children": [],
+                            "clipbounds": true,
+                            "containerId": true,
+                            "containerweight": 100,
+                            "enablescrolling": true,
+                            "id": "flxRoundToggle2",
+                            "info": null,
+                            "iphone": {
+                                "left": {
+                                    "type": "string",
+                                    "value": "7dp"
+                                },
+                                "top": {
+                                    "type": "string",
+                                    "value": ""
+                                }
+                            },
+                            "iscustomlayout": false,
+                            "isvisible": true,
+                            "kuid": "a880d0fc101249b49141a51a3874f9f3",
+                            "layouttype": 2,
+                            "name": "kony.ui.FlexContainer",
+                            "parent": "flxBiomerticMain2",
+                            "pf": "FBox0e224ffdd37d147",
+                            "retaincontentalignment": false,
+                            "retainflexpositionproperties": false,
+                            "retainflowhorizontalalignment": false,
+                            "snapgridsize": 10,
+                            "snapshot": {
+                                "md5": "mN1wOYyJNcjU/D+LNht0riCUxuQ="
+                            },
+                            "snaptogrid": true,
+                            "wType": "FlexContainer",
+                            "widgetalignment": 1,
+                            "zindex": 1
+                        },
+                        "id": "flxBiomerticMain2",
+                        "info": null,
+                        "iscustomlayout": false,
+                        "isvisible": true,
+                        "kuid": "a779a9e4d9e2449885515457a6cbdb6e",
+                        "layouttype": 2,
+                        "name": "kony.ui.FlexContainer",
+                        "parent": "flxMainBio",
+                        "pf": "FBox0e224ffdd37d147",
+                        "retaincontentalignment": false,
+                        "retainflexpositionproperties": false,
+                        "retainflowhorizontalalignment": false,
+                        "snapgridsize": 10,
+                        "snapshot": {
+                            "md5": "MRiBNkZMM77FVqnoAJqoXSXcl/E="
+                        },
+                        "snaptogrid": true,
+                        "wType": "FlexContainer",
+                        "widgetalignment": 1,
+                        "zindex": 1
+                    },
+                    "id": "flxMainBio",
+                    "info": null,
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "a21e5f0f4c5f4c50855250dd34c6bf8e",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "FBox0e224ffdd37d147",
+                    "pf": "FBox0e224ffdd37d147",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snapshot": {
+                        "md5": "xWHbc9Yfok5bsPJ+pwMF9XzOUtY="
+                    },
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "flxRoundToggle2": {
+                    "DNDConfig": null,
+                    "_height_": {
+                        "type": "string",
+                        "value": "20dp"
+                    },
+                    "_left_": {
+                        "type": "string",
+                        "value": "7dp"
+                    },
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_skin_": "s162a5eee8a64c5580f4ddc0e81ad8ca",
+                    "_top_": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "_width_": {
+                        "type": "string",
+                        "value": "20dp"
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "centery": {
+                        "type": "string",
+                        "value": "50%"
+                    },
+                    "children": [],
+                    "clipbounds": true,
+                    "containerId": true,
+                    "containerweight": 100,
+                    "enablescrolling": true,
+                    "id": "flxRoundToggle2",
+                    "info": null,
+                    "iphone": {
+                        "left": {
+                            "type": "string",
+                            "value": "7dp"
+                        },
+                        "top": {
+                            "type": "string",
+                            "value": ""
+                        }
+                    },
+                    "iscustomlayout": false,
+                    "isvisible": true,
+                    "kuid": "a880d0fc101249b49141a51a3874f9f3",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "flxBiomerticMain2",
+                    "pf": "FBox0e224ffdd37d147",
+                    "retaincontentalignment": false,
+                    "retainflexpositionproperties": false,
+                    "retainflowhorizontalalignment": false,
+                    "snapgridsize": 10,
+                    "snapshot": {
+                        "md5": "mN1wOYyJNcjU/D+LNht0riCUxuQ="
+                    },
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "id": "FBox0e224ffdd37d147",
+                "info": null,
+                "isGeneratedTemplate": true,
+                "isTemplate": true,
+                "iscustomlayout": false,
+                "isvisible": true,
+                "kuid": "c3636c7fdc534afb80c219c22818f7b5",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "pf": "FBox0e224ffdd37d147",
+                "retaincontentalignment": false,
+                "retainflexpositionproperties": false,
+                "retainflowhorizontalalignment": false,
+                "snapgridsize": 10,
+                "snapshot": {
+                    "md5": "4AyKYffytqS5aL7pRZUZ5ikRsCU="
+                },
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1
+            }
+        }
+    },
+    "_bounces_": false,
+    "_data_": [
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        },
+        {
+            "lblNotifSettName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MTD Orders vs NDF over 100"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "37dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "c3636c7fdc534afb80c219c22818f7b5",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segNotificationSettings",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a81d5626f4bd4fc193ae35d943d6514b",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "lblNotifSettName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "c006735bb23b452aa37d90cffc89967f",
+        "rowtemplate": "flxNotifSett",
+        "widgetdatamap": {
+            "flxMain": "flxMain",
+            "flxNotifSett": "flxNotifSett",
+            "flxRoundToggle": "flxRoundToggle",
+            "flxSegPushSwtch": "flxSegPushSwtch",
+            "flxSegToggleMain": "flxSegToggleMain",
+            "lblNotifSettName": "lblNotifSettName"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": "sdee14e29b774d5e93d98cf395404aa3",
+    "rowskin": "sdee14e29b774d5e93d98cf395404aa3",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s832969942744ad8bddaff3b35f527e5",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBiomerticMain": "flxBiomerticMain",
+        "flxBiometricswtch": "flxBiometricswtch",
+        "flxMain": "flxMain",
+        "flxNotifSett": "flxNotifSett",
+        "flxRoundToggle": "flxRoundToggle",
+        "lblNotifSettName": "lblNotifSettName"
+    },
+    "zindex": 1
+}

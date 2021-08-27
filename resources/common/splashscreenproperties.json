@@ -1,0 +1,68 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {
+                "backgroundColor": "0c1024"
+            },
+            "iphone": {
+                "splashConfig": {
+                    "children": [
+                        {
+                            "UIElementType": "imageUIElement",
+                            "contentMode": "scaleAspectFill",
+                            "height": "100%",
+                            "left": "0dp",
+                            "source": "splash.png",
+                            "top": "0dp",
+                            "visible": true,
+                            "width": "100%"
+                        }
+                    ],
+                    "skin": {
+                        "backgroundColor": "080f3f00"
+                    }
+                }
+            },
+            "spa": {},
+            "spaan": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "splashImage": "splash.png",
+            "winphone10": {},
+            "winphone8": {}
+        },
+        "tablet": {
+            "android": {},
+            "ipad": {
+                "landscape": {},
+                "splashConfig": {
+                    "children": [
+                        {
+                            "UIElementType": "imageUIElement",
+                            "contentMode": "scaleAspectFill",
+                            "height": "100%",
+                            "left": "0dp",
+                            "source": "splash.png",
+                            "top": "0dp",
+                            "visible": true,
+                            "width": "100%"
+                        }
+                    ],
+                    "skin": {
+                        "backgroundColor": "080f3f00"
+                    }
+                }
+            },
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "splashImage": "splash.png",
+            "windows8": {}
+        }
+    }
+}

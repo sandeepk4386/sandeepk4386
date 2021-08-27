@@ -1,0 +1,356 @@
+{
+    "classname": "linechart",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ad05acdd8e9741f395fdcfdc5b1f1812",
+                    "paramList": [],
+                    "propertyKey": "createChart",
+                    "pw": {
+                        "displayName": "createChart",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b5d3699e051443f684c2a5214e02f4b7",
+                    "paramList": [],
+                    "propertyKey": "showGridChart",
+                    "pw": {
+                        "displayName": "showGridChart",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Grid",
+                "Axis",
+                "Title"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Label Name",
+                                "columnHeaderType": "text",
+                                "columnID": "lblName",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "b105ebe59709499daec52b0a9d64f91b"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Offshore",
+                                "columnHeaderType": "text",
+                                "columnID": "dataVal1",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "h92c1d53595b44098881ae95f1b207c9"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Onsite",
+                                "columnHeaderType": "text",
+                                "columnID": "dataVal2",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "eb0f3e4b60824b3da44f364395111637"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Off-On",
+                                "columnHeaderType": "text",
+                                "columnID": "dataVal3",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "d2bac2a31f5a43e183b4b1129c377e0c"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Nearshore",
+                                "columnHeaderType": "text",
+                                "columnID": "dataVal4",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "d3af2c25bb7f430a8fe1292fd538c176"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "g06c8f82e1f1444189f3b283350602f6",
+                    "originalPropertyKey": "chartData",
+                    "propertyIndex": 1,
+                    "propertyKey": "chartData",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Chart Data",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "data grid",
+                    "value": 5
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Line Name",
+                                "columnHeaderType": "text",
+                                "columnID": "lineName",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "je9475c4fad449b28bdbd080e719ab51"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Line Color",
+                                "columnHeaderType": "text",
+                                "columnID": "lineColor",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "b5bcd31ce85140ab8f37fdbbe7c89e80"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Marker Symbol",
+                                "columnHeaderType": "text",
+                                "columnID": "markerSymbol",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "h02e20ff41fe46bebe7c94cabe2819d6"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Marker Fill Color",
+                                "columnHeaderType": "text",
+                                "columnID": "markerFillColor",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "hda6522c90b44915a05b9019f46483d3"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Marker Line Width",
+                                "columnHeaderType": "text",
+                                "columnID": "markerLineWidth",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "b5ce9001769342bea4f147a09a5b17b4"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Line Type",
+                                "columnHeaderType": "text",
+                                "columnID": "lineType",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "cb708b14e5ab482d99b368ba01449159"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Dash Type",
+                                "columnHeaderType": "text",
+                                "columnID": "dashType",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "e2e36bc208c548b5a180f50ef74c266f"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Index",
+                                "columnHeaderType": "text",
+                                "columnID": "index",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "e808c2da54394f7da42b36ad802ba001"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "c1c56efac03f43a9b26261b40b93fd1e",
+                    "originalPropertyKey": "linesData",
+                    "propertyIndex": 2,
+                    "propertyKey": "linesData",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Lines Data",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "data grid",
+                    "value": 7
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "fdf60f0a38b44888b6d57745c6e80f6c",
+                    "originalPropertyKey": "minValue",
+                    "propertyIndex": 3,
+                    "propertyKey": "minValue",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Min Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "a7c1c6f40675444f8b7f445d2e8ccb4a",
+                    "originalPropertyKey": "maxValue",
+                    "propertyIndex": 4,
+                    "propertyKey": "maxValue",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Max Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "cce672db10a3477cbde7177557942432",
+                    "originalPropertyKey": "intervalValue",
+                    "propertyIndex": 5,
+                    "propertyKey": "intervalValue",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Interval Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "x-axis",
+                    "group": "Axis",
+                    "kuid": "de43ff99352c40b0aa7dc5146a8a32c5",
+                    "originalPropertyKey": "xAxisTitle",
+                    "propertyIndex": 7,
+                    "propertyKey": "xAxisTitle",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "X Axis Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "y-axis",
+                    "group": "Axis",
+                    "kuid": "f756ae77301a4c73b50746184f7f7aeb",
+                    "originalPropertyKey": "yAxisTitle",
+                    "propertyIndex": 8,
+                    "propertyKey": "yAxisTitle",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Y Axis Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Title",
+                    "kuid": "a1478fb82a9744a882413047f301e8fb",
+                    "originalPropertyKey": "chartTitle",
+                    "propertyIndex": 9,
+                    "propertyKey": "chartTitle",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Chart Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Title",
+                    "kuid": "cb5ee6d824494d1c849ddcf404810da7",
+                    "originalPropertyKey": "titleFontColor",
+                    "propertyIndex": 10,
+                    "propertyKey": "titleFontColor",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Title Font Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Title",
+                    "kuid": "h0dbceb221b341d9a6ed244548d1538f",
+                    "originalPropertyKey": "titleFontSize",
+                    "propertyIndex": 11,
+                    "propertyKey": "titleFontSize",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Title Font Size",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c6c139953cff40648820d147960a51bc",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

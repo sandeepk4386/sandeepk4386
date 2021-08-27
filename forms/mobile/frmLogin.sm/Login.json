@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfb7c20e2a8042088bbc285ec15f8d1a",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "baseURL": "",
+        "clientapp": "",
+        "cloroxIDLoginUI": true,
+        "deepLinkURL": "",
+        "localAuthRequired": "USER PREFERENCE"
+    },
+    "id": "Login",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f285fa2a3b454aa191cd28fc9490b648",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxLogin",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "b1cd5c19323e4dc38b64a4a9ca26e321",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

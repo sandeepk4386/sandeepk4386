@@ -1,0 +1,37 @@
+{
+  "android": {
+    "font_name": "SourceSansPro-Regular",
+    "font_size": 114,
+    "isForked": true
+  },
+  "background_color": "0ac7c2ff",
+  "bg_type": "one",
+  "border_color": "0ac7c200",
+  "border_style": "rc",
+  "border_type": 0,
+  "border_width": 2,
+  "fontSizeInPx": false,
+  "font_color": "ffffffff",
+  "font_name": "iphoneSystem",
+  "font_size": 114,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "font_name": "System",
+    "font_size": 114,
+    "isForked": true
+  },
+  "iphone": {
+    "font_name": "SourceSansPro-Regular",
+    "font_size": 114,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sd17d14a495e48419595e5dec25037b6",
+  "tabrcandroid": {
+    "font_name": "default",
+    "font_size": 114,
+    "isForked": true
+  },
+  "wType": "Button"
+}

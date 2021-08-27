@@ -1,0 +1,76 @@
+{
+    "classname": "DosDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e9b0ea6aa6444eff8511f1f07ffbc4da",
+                    "paramList": [],
+                    "propertyKey": "setFormDosData",
+                    "pw": {
+                        "displayName": "setFormDosData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bf06381720d545b8b83dc13be5c4587d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i30f742ce7b64925b3124c8fc1936f09",
+                    "paramList": [],
+                    "propertyKey": "setSegmentsData",
+                    "pw": {
+                        "displayName": "setSegmentsData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bf06381720d545b8b83dc13be5c4587d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e435f0d551c241a2b9a5ec2c92ea106f",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 1,
+                    "propertyKey": "shareIconTouchEnd",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "shareIconTouchEnd",
+                        "srcWidget": "lblOrderTypeShareIcon",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "haa46a85c19b4157bc98626940e2e825",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.clorox",
+    "version": "1.0.0"
+}

@@ -1,0 +1,91 @@
+{
+    "classname": "DOSBusinessCustomers",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h83ab71e73804e43a5ed91798089398c",
+                    "paramList": [
+                        {
+                            "name": "business"
+                        },
+                        {
+                            "name": "k"
+                        }
+                    ],
+                    "propertyKey": "setBusinessData",
+                    "pw": {
+                        "displayName": "setBusinessData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d570b43cdf874213a6708b619853d5d1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cb480f09e0f141bc939fa4913db8c491",
+                    "paramList": [
+                        {
+                            "name": "customers"
+                        }
+                    ],
+                    "propertyKey": "setCustomersData",
+                    "pw": {
+                        "displayName": "setCustomersData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d570b43cdf874213a6708b619853d5d1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b91822d7de6f4e719a1d48ac1b294d84",
+                    "paramList": [],
+                    "propertyKey": "setBusinessDataOff",
+                    "pw": {
+                        "displayName": "setBusinessDataOff",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d570b43cdf874213a6708b619853d5d1",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ac41190bae37490baa28f7b9bbc4a735",
+                    "paramList": [],
+                    "propertyKey": "setCustomersDataOff",
+                    "pw": {
+                        "displayName": "setCustomersDataOff",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d570b43cdf874213a6708b619853d5d1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.DOS",
+    "version": "1.0.0"
+}

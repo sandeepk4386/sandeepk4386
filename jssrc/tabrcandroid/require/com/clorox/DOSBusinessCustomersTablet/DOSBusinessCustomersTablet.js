@@ -1,0 +1,328 @@
+define(function() {
+    return function(controller) {
+        var DOSBusinessCustomersTablet = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "isMaster": true,
+            "id": "DOSBusinessCustomersTablet",
+            "isVisible": true,
+            "layoutType": kony.flex.FREE_FORM,
+            "left": "0dp",
+            "isModalContainer": false,
+            "skin": "slFbox",
+            "top": "0dp",
+            "width": "100%",
+            "zIndex": 1
+        }, controller.args[0], "DOSBusinessCustomersTablet"), extendConfig({}, controller.args[1], "DOSBusinessCustomersTablet"), extendConfig({}, controller.args[2], "DOSBusinessCustomersTablet"));
+        DOSBusinessCustomersTablet.setDefaultUnit(kony.flex.DP);
+        var flxMain = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "id": "flxMain",
+            "isVisible": true,
+            "layoutType": kony.flex.FLOW_VERTICAL,
+            "left": "0dp",
+            "isModalContainer": false,
+            "skin": "sknFlxBg",
+            "top": "0dp",
+            "width": "100%",
+            "zIndex": 1
+        }, controller.args[0], "flxMain"), extendConfig({}, controller.args[1], "flxMain"), extendConfig({}, controller.args[2], "flxMain"));
+        flxMain.setDefaultUnit(kony.flex.DP);
+        var flxBusinessUnitMain = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "id": "flxBusinessUnitMain",
+            "isVisible": true,
+            "layoutType": kony.flex.FLOW_VERTICAL,
+            "left": "0dp",
+            "isModalContainer": false,
+            "skin": "slFbox",
+            "top": "0dp",
+            "width": "100%",
+            "zIndex": 1
+        }, controller.args[0], "flxBusinessUnitMain"), extendConfig({}, controller.args[1], "flxBusinessUnitMain"), extendConfig({}, controller.args[2], "flxBusinessUnitMain"));
+        flxBusinessUnitMain.setDefaultUnit(kony.flex.DP);
+        var flxBusinesslabels = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "id": "flxBusinesslabels",
+            "isVisible": true,
+            "layoutType": kony.flex.FREE_FORM,
+            "left": "3dp",
+            "isModalContainer": false,
+            "skin": "slFbox",
+            "top": "0dp",
+            "width": "98%",
+            "zIndex": 1
+        }, controller.args[0], "flxBusinesslabels"), extendConfig({}, controller.args[1], "flxBusinesslabels"), extendConfig({}, controller.args[2], "flxBusinesslabels"));
+        flxBusinesslabels.setDefaultUnit(kony.flex.DP);
+        var lblBusiness = new kony.ui.Label(extendConfig({
+            "id": "lblBusiness",
+            "isVisible": true,
+            "left": "0dp",
+            "skin": "sknLblFFFFFSSPSB24px",
+            "text": kony.i18n.getLocalizedString("i18.clorox.businessUnits"),
+            "textStyle": {},
+            "top": "0dp",
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, controller.args[0], "lblBusiness"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "lblBusiness"), extendConfig({
+            "textCopyable": false
+        }, controller.args[2], "lblBusiness"));
+        var lblBusinessChildHead = new kony.ui.Label(extendConfig({
+            "id": "lblBusinessChildHead",
+            "isVisible": true,
+            "left": "0dp",
+            "skin": "sknLbla7dcecRobotoMed16px",
+            "text": kony.i18n.getLocalizedString("i18.clorox.mtdOrdersvsmtdYAOrdersIndex"),
+            "textStyle": {},
+            "top": "30dp",
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, controller.args[0], "lblBusinessChildHead"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "lblBusinessChildHead"), extendConfig({
+            "textCopyable": false
+        }, controller.args[2], "lblBusinessChildHead"));
+        var lblBusinnesUnitShareIcon = new kony.ui.Label(extendConfig({
+            "bottom": "10dp",
+            "id": "lblBusinnesUnitShareIcon",
+            "isVisible": true,
+            "right": "10dp",
+            "skin": "sknLblA7DCECShare",
+            "text": "0",
+            "textStyle": {},
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, controller.args[0], "lblBusinnesUnitShareIcon"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_RIGHT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "lblBusinnesUnitShareIcon"), extendConfig({
+            "textCopyable": false
+        }, controller.args[2], "lblBusinnesUnitShareIcon"));
+        flxBusinesslabels.add(lblBusiness, lblBusinessChildHead, lblBusinnesUnitShareIcon);
+        var flxBusinessSegment = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "id": "flxBusinessSegment",
+            "isVisible": true,
+            "layoutType": kony.flex.FREE_FORM,
+            "left": "0dp",
+            "isModalContainer": false,
+            "skin": "sknFlxBg",
+            "top": "12dp",
+            "width": "100%",
+            "zIndex": 1
+        }, controller.args[0], "flxBusinessSegment"), extendConfig({}, controller.args[1], "flxBusinessSegment"), extendConfig({}, controller.args[2], "flxBusinessSegment"));
+        flxBusinessSegment.setDefaultUnit(kony.flex.DP);
+        var segBusiness = new kony.ui.SegmentedUI2(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "data": [{
+                "lblCount1": "",
+                "lblCount2": "",
+                "lblCount3": "",
+                "lblName1": "",
+                "lblName2": "",
+                "lblName3": ""
+            }],
+            "groupCells": false,
+            "id": "segBusiness",
+            "isVisible": true,
+            "left": "0dp",
+            "needPageIndicator": true,
+            "pageOffDotImage": "pageoffdot.png",
+            "pageOnDotImage": "pageondot.png",
+            "retainSelection": false,
+            "rowSkin": "seg2Normal",
+            "rowTemplate": "flxDOSMain",
+            "scrollingEvents": {},
+            "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+            "separatorColor": "aaaaaa00",
+            "separatorRequired": false,
+            "separatorThickness": 1,
+            "showScrollbars": false,
+            "top": "0dp",
+            "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
+            "widgetDataMap": {
+                "flxDOSMain": "flxDOSMain",
+                "flxLeft1": "flxLeft1",
+                "flxLeft2": "flxLeft2",
+                "flxLeft3": "flxLeft3",
+                "flxMain": "flxMain",
+                "flxSpace1": "flxSpace1",
+                "flxSpace2": "flxSpace2",
+                "flxSpace3": "flxSpace3",
+                "lblCount1": "lblCount1",
+                "lblCount2": "lblCount2",
+                "lblCount3": "lblCount3",
+                "lblName1": "lblName1",
+                "lblName2": "lblName2",
+                "lblName3": "lblName3"
+            },
+            "width": "100%",
+            "zIndex": 1
+        }, controller.args[0], "segBusiness"), extendConfig({
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "segBusiness"), extendConfig({}, controller.args[2], "segBusiness"));
+        flxBusinessSegment.add(segBusiness);
+        flxBusinessUnitMain.add(flxBusinesslabels, flxBusinessSegment);
+        var flxCustomerMain = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "id": "flxCustomerMain",
+            "isVisible": true,
+            "layoutType": kony.flex.FLOW_VERTICAL,
+            "left": "3dp",
+            "isModalContainer": false,
+            "skin": "slFbox",
+            "top": "34dp",
+            "width": "98%",
+            "zIndex": 1
+        }, controller.args[0], "flxCustomerMain"), extendConfig({}, controller.args[1], "flxCustomerMain"), extendConfig({}, controller.args[2], "flxCustomerMain"));
+        flxCustomerMain.setDefaultUnit(kony.flex.DP);
+        var flxCustomersLabels = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "id": "flxCustomersLabels",
+            "isVisible": true,
+            "layoutType": kony.flex.FREE_FORM,
+            "left": "3dp",
+            "isModalContainer": false,
+            "skin": "slFbox",
+            "top": "0dp",
+            "width": "98%",
+            "zIndex": 1
+        }, controller.args[0], "flxCustomersLabels"), extendConfig({}, controller.args[1], "flxCustomersLabels"), extendConfig({}, controller.args[2], "flxCustomersLabels"));
+        flxCustomersLabels.setDefaultUnit(kony.flex.DP);
+        var lblCustomersHead = new kony.ui.Label(extendConfig({
+            "id": "lblCustomersHead",
+            "isVisible": true,
+            "left": "0dp",
+            "skin": "sknLblFFFFFSSPSB24px",
+            "text": kony.i18n.getLocalizedString("i18.clorox.top10Customers"),
+            "textStyle": {},
+            "top": "0dp",
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, controller.args[0], "lblCustomersHead"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "lblCustomersHead"), extendConfig({
+            "textCopyable": false
+        }, controller.args[2], "lblCustomersHead"));
+        var lblCustomersChildHead = new kony.ui.Label(extendConfig({
+            "id": "lblCustomersChildHead",
+            "isVisible": true,
+            "left": "0dp",
+            "skin": "sknLbla7dcecRobotoMed16px",
+            "text": kony.i18n.getLocalizedString("i18.clorox.mtdOrdersvsmtdYAOrdersIndex"),
+            "textStyle": {},
+            "top": "30dp",
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, controller.args[0], "lblCustomersChildHead"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "lblCustomersChildHead"), extendConfig({
+            "textCopyable": false
+        }, controller.args[2], "lblCustomersChildHead"));
+        var lblCustomerShareIcon = new kony.ui.Label(extendConfig({
+            "bottom": "10dp",
+            "id": "lblCustomerShareIcon",
+            "isVisible": true,
+            "right": "10dp",
+            "skin": "sknLblA7DCECShare",
+            "text": "0",
+            "textStyle": {},
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, controller.args[0], "lblCustomerShareIcon"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_RIGHT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "lblCustomerShareIcon"), extendConfig({
+            "textCopyable": false
+        }, controller.args[2], "lblCustomerShareIcon"));
+        flxCustomersLabels.add(lblCustomersHead, lblCustomersChildHead, lblCustomerShareIcon);
+        var flxCustomersSegment = new kony.ui.FlexContainer(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "clipBounds": true,
+            "id": "flxCustomersSegment",
+            "isVisible": true,
+            "layoutType": kony.flex.FREE_FORM,
+            "left": "0dp",
+            "isModalContainer": false,
+            "skin": "slFbox",
+            "top": "12dp",
+            "width": "100%",
+            "zIndex": 1
+        }, controller.args[0], "flxCustomersSegment"), extendConfig({}, controller.args[1], "flxCustomersSegment"), extendConfig({}, controller.args[2], "flxCustomersSegment"));
+        flxCustomersSegment.setDefaultUnit(kony.flex.DP);
+        var segCustomers = new kony.ui.SegmentedUI2(extendConfig({
+            "autogrowMode": kony.flex.AUTOGROW_HEIGHT,
+            "data": [{
+                "lblCount1": "",
+                "lblCount2": "",
+                "lblCount3": "",
+                "lblName1": "",
+                "lblName2": "",
+                "lblName3": ""
+            }],
+            "groupCells": false,
+            "id": "segCustomers",
+            "isVisible": true,
+            "left": "0dp",
+            "needPageIndicator": true,
+            "pageOffDotImage": "pageoffdot.png",
+            "pageOnDotImage": "pageondot.png",
+            "retainSelection": false,
+            "rowSkin": "sknSegAdditionalMetrics",
+            "rowTemplate": "flxDOSMain",
+            "scrollingEvents": {},
+            "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+            "separatorColor": "aaaaaa00",
+            "separatorRequired": false,
+            "separatorThickness": 1,
+            "showScrollbars": false,
+            "top": "0dp",
+            "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
+            "widgetDataMap": {
+                "flxDOSMain": "flxDOSMain",
+                "flxLeft1": "flxLeft1",
+                "flxLeft2": "flxLeft2",
+                "flxLeft3": "flxLeft3",
+                "flxMain": "flxMain",
+                "flxSpace1": "flxSpace1",
+                "flxSpace2": "flxSpace2",
+                "flxSpace3": "flxSpace3",
+                "lblCount1": "lblCount1",
+                "lblCount2": "lblCount2",
+                "lblCount3": "lblCount3",
+                "lblName1": "lblName1",
+                "lblName2": "lblName2",
+                "lblName3": "lblName3"
+            },
+            "width": "100%",
+            "zIndex": 1
+        }, controller.args[0], "segCustomers"), extendConfig({
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "segCustomers"), extendConfig({}, controller.args[2], "segCustomers"));
+        flxCustomersSegment.add(segCustomers);
+        flxCustomerMain.add(flxCustomersLabels, flxCustomersSegment);
+        flxMain.add(flxBusinessUnitMain, flxCustomerMain);
+        DOSBusinessCustomersTablet.add(flxMain);
+        return DOSBusinessCustomersTablet;
+    }
+})

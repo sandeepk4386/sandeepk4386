@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862350414430",
+    "project_id": "cloroxdb",
+    "storage_bucket": "cloroxdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862350414430:android:21556fcf6bfad3fad59acf",
+        "android_client_info": {
+          "package_name": "com.clorox.dailybriefings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862350414430-ji8rd4lu9tf3ettqmq0pmd93lgtavop9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxnxeyR3TzhrrfZJnfjo6pubQy0NnvsO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862350414430-ji8rd4lu9tf3ettqmq0pmd93lgtavop9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

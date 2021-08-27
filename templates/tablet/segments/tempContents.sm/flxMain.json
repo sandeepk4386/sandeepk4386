@@ -1,0 +1,59 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa38974c84564f2e986265a046aab6b8",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxContentRow",
+        "flxSpace"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "flxMainController"
+        }
+    },
+    "disabledSkins": {
+        "focusSkin": "sfb7c20e2a8042088bbc285ec15f8d1a"
+    },
+    "enablescrolling": true,
+    "id": "flxMain",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "a114ece0653c444fa50f12c329231bee",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tempContents",
+    "pf": "tempContents",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}
